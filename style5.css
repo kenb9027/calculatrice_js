@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+.calculatorBox{
+position: relative;
+
+margin: 10px;
+
+background-color: #272c2e;
+background-image: linear-gradient(315deg, #272c2e 0%, #a0a0a0 90%);
+
+border: black solid 2px;
+    height: 550px;
+    width: 400px;
+    border-radius:5%;
+   
+}
+
+.screenBox{
+position: absolute;
+top: 20px;
+left: 20px;
+
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+
+
+    background-color: rgb(181, 247, 127);
+    border: solid black 1px;
+    height: 90px;
+    width: 360px;
+    border-radius: 10px;
+    line-height: 70px;
+    text-align: right;
+    font-size: 55px;
+    font-style: italic;
+    font-family: cursive;
+    color: rgb(43, 43, 43);
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.buttonBox{
+position: absolute;
+bottom: 20px;
+left: 20px;
+
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: wrap;
+
+    background-color: transparent;
+    border: dashed transparent 1px;
+    height: 390px;
+    width: 360px;
+    padding: 10px;
+}
+
+.topbuttons {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+
+    display: flex;
+    
+}
+.numberbuttons {
+    position: absolute;
+    top: 80px;
+    left: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    
+}
+
+.applibuttons {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button { 
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+
+background: rgb(150,150,150);
+background: linear-gradient(323deg, rgb(150, 150, 150) 20%, rgba(194,194,194,1) 80%);
+
+    border: rgb(129, 129, 129) solid 1px;
+
+    border-radius: 10px;
+    height: 60px;
+    width: 70px;
+   
+    
+  
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px;
+    
+        
+}
+
+#equal {
+    height: 130px;
+    border-radius: 10px;
+    display: flex;
+justify-content: center;
+align-items: flex-end;
+padding-bottom: 10px;
+background: rgb(51, 110, 24);
+border: transparent solid 1px;    
+}
+
+#zero {
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+  padding-left: 25px;  
+
+
+}
+#corrbtn{ 
+    background: rgb(240, 185, 36);
+    border: transparent solid 1px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.aplbtn{
+    background: rgb(70, 70, 153);
+    border: transparent solid 1px;
+}
+
+#btnSoustract{
+    background: rgb(70, 70, 153);
+    border: transparent solid 1px;
+}
+#rbtn{
+   background: rgb(202, 38, 38);
+    border: transparent solid 1px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
